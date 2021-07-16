@@ -1,0 +1,71 @@
+@font-face{
+    font-family: my-fonts;
+    src: url(font/DancingScript-Bold.ttf);
+}
+
+body{
+    width: 60%;
+    background-color: rgb(199, 143, 79);
+    margin: 0 auto;
+    padding: 110px;
+    text-align: center;
+    font-family: my-fonts;
+    font-size: 20px;
+    display: flex;
+padding-right: 20px;
+
+}
+
+.main-div{
+
+    padding: 10px;
+    background-color: rgb(225, 143, 50);
+}
+
+.btn-box{
+    width: 220px;
+    margin: 35px auto;
+    border-radius: 35px ;
+    box-shadow: 0 0 20px 9px rgb(0, 0, 0);
+    position: relative;
+    border: none;
+
+
+}
+
+
+#btn-signout{
+    padding: 10px 30px;
+    border: 0;
+    position: relative;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+
+}
+
+
+
+
+
+/* .inner-div{
+    padding: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: lightblue;
+      text-align: center;
+      margin:0 auto;
+      width: 90%;
+    }
+  }
